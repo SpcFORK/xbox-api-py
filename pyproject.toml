@@ -1,8 +1,10 @@
 [tool.poetry]
-name = "python-template"
-version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+name = "xbox-api-py"
+version = "1.0.2"
+description = "A Python wrapper for the Xbox API""
+authors = [{name = "RomanMender", url = "https://github.com/RomanMender/xbox-api"}, {name = "SpcFORK", url = "https://github.com/SpcFORK/xbox-api-py"}]
+repository = "https://github.com/SpcFORK/xbox-api-py"
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = ">=3.10.0,<3.11"
@@ -10,6 +12,8 @@ numpy = "^1.22.2"
 replit = "^3.2.4"
 Flask = "^2.2.0"
 urllib3 = "^1.26.12"
+form-data = "^4.0.0"
+requests = "^2.26.0"
 
 [tool.poetry.dev-dependencies]
 debugpy = "^1.6.2"
@@ -18,3 +22,25 @@ replit-python-lsp-server = {version = "^1.5.9"}
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[project]
+name = "xbox-api-py_SpcFORK"
+version = "1.0.2"
+authors = [{name = "RomanMender", url = "https://github.com/RomanMender/xbox-api"}, {name = "SpcFORK", url = "https://github.com/SpcFORK/xbox-api-py"}]
+description = "A Python wrapper for the Xbox API"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/SpcFORK/xbox.api-py"
+"Bug Tracker" = "https://github.com/SpcFORK/xbox.api-py/issues"
