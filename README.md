@@ -1,10 +1,10 @@
-# xbox-api
+# xbox-api-py
 
 A simple Xbox API wrapper for Python that allows you to interact with various Xbox API endpoints. If you want to request any additional endpoints, please submit a feature request on the original [GitHub](https://github.com/RomanMender/xbox-api), or at my [Py Recode](https://github.com/SpcFORK/xbox-api-py).
 
 ## Installation
 ```shell
-$ pip install xbox-api
+$ pip install xbox-api-py
 ```
 
 ## Example
