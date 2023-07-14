@@ -30,7 +30,6 @@ print(result)
 | Get Profile From Gamertag  | get_profile_by_gt(gamertag, authorization)  | JSON  |
 | Get Profile From Xuid  | get_profile_by_xuid(xuid, authorization)  | JSON  |
 | Get Own Profile  | get_own_profile
-
 (authorization)  | JSON  |
 | Get Xuid From Gamertag  | get_profile_xuid(gamertag, authorization)  | String  |
 | Get Clips From Xuid  | get_profile_game_clips(xuid, authorization)  | JSON  |
